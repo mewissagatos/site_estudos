@@ -29,8 +29,6 @@ body {
     display: flex;
     width: 100%;
 }
-
-/* Sidebar */
 .sidebar {
     width: 280px;
     background-color: var(--bg-sidebar);
@@ -79,8 +77,6 @@ body {
     color: var(--primary);
     border-left: 4px solid var(--primary);
 }
-
-/* Main Content */
 .content {
     flex: 1;
     padding: 3rem;
@@ -119,8 +115,6 @@ header p {
     color: var(--text-muted);
     font-size: 1.1rem;
 }
-
-/* Resumo Section */
 .resumo-container {
     display: grid;
     grid-template-columns: 1fr;
@@ -161,8 +155,6 @@ header p {
     color: var(--text-main);
     line-height: 1.6;
 }
-
-/* Quiz Section */
 .quiz-container {
     max-width: 800px;
     background: var(--bg-card);
@@ -223,8 +215,6 @@ header p {
     font-weight: 600;
     font-size: 1.1rem;
 }
-
-/* SQL Section */
 .sql-container {
     max-width: 900px;
 }
@@ -290,8 +280,6 @@ header p {
 .sys-msg { color: var(--text-muted); }
 .success-msg { color: var(--success); }
 .error-msg { color: var(--danger); }
-
-/* Buttons */
 .btn {
     padding: 0.8rem 1.5rem;
     border: none;
