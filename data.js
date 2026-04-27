@@ -22,7 +22,6 @@ const resumosData = [
 ];
 
 const quizData = [
-    // --- AS 15 QUESTÕES ORIGINAIS ---
     {
         question: "Qual tipo de escalabilidade é a mais comum e eficiente em bancos No-SQL, consistindo em adicionar mais servidores trabalhando em conjunto?",
         options: ["Escalabilidade Vertical", "Escalabilidade Horizontal", "Escalabilidade Diagonal", "Escalabilidade Circular"],
@@ -148,8 +147,6 @@ const quizData = [
         ],
         answer: 2
     },
-
-    // --- AS 15 QUESTÕES NOVAS ---
     {
         question: "O que a sigla SQL significa em português?",
         options: [
